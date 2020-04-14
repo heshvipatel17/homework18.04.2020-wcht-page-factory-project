@@ -1,83 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Regression1"
-           tests="3"
-           failures="1"
+<testsuite name="Login Test"
+           tests="1"
+           failures="0"
            errors="0"
            skipped="0"
-           time="11.893">
+           time="1.489">
   <properties />
-            <testcase name="verifyUserShouldClickOnYourAccountLink" time="10.222" classname="uk.org.wcht.testsuite.TestCase">
-                <failure type="org.openqa.selenium.NoSuchElementException"
-                  message="no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Your account&quot;}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-N48795B&apos;, ip: &apos;192.168.0.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bjrpa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e46c44e01f730481a3173337c7c4f0f1
-*** Element info: {Using=link text, value=Your account}"
-              >
-<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Your account"}
-  (Session info: chrome=80.0.3987.163)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-N48795B', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\bjrpa\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e46c44e01f730481a3173337c7c4f0f1
-*** Element info: {Using=link text, value=Your account}
-  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-  org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-  org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-  uk.org.wcht.utility.Utility.clickOnElement(Utility.java:49)
-  uk.org.wcht.pages.HomePage.clickOnYourAccountLink(HomePage.java:14)
-  uk.org.wcht.testsuite.TestCase.verifyUserShouldClickOnYourAccountLink(TestCase.java:12)
-  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-  java.lang.reflect.Method.invoke(Method.java:498)
-  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-  java.util.ArrayList.forEach(ArrayList.java:1249)
-  org.testng.TestRunner.privateRun(TestRunner.java:766)
-  org.testng.TestRunner.run(TestRunner.java:587)
-  org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-  org.testng.SuiteRunner.run(SuiteRunner.java:286)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-  org.testng.TestNG.runSuites(TestNG.java:1039)
-  org.testng.TestNG.run(TestNG.java:1007)
-  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)
-]]>
-      </failure>
-
-          </testcase>
   
   
-            <testcase name="VerifyUserShouldmouseHoverAndClickAboutUsDropDownLink" time="1.290" classname="uk.org.wcht.testsuite.TestCase" />
-                <testcase name="VerifyUserShouldMouseHoverOnYourHomeDropDownLink" time="0.381" classname="uk.org.wcht.testsuite.TestCase" />
+            <testcase name="verifyUserShouldClickOnYourAccountLink" time="1.489" classname="uk.org.wcht.testsuite.TestCase" />
       
 </testsuite>

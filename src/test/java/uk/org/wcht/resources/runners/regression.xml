@@ -8,26 +8,15 @@
     </groups>
 
     <listeners>
-        <listener class-name="com.nopcommerce.demo.listeners.Listeners"></listener>
+        <listener class-name="uk.org.wcht.listeners.Listeners"></listener>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
         <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
     </listeners>
 
     <test name="Login Test" >
         <classes>
-            <class name="com.nopcommerce.demo.testsuite.LoginTestCase"/>
+            <class name="uk.org.wcht.testsuite.TestCase"/>
         </classes>
     </test>
 
-    <test name="Registration Test" >
-        <classes>
-            <class name="com.nopcommerce.demo.testsuite.RegisterTestCase"/>
-        </classes>
-    </test>
-
-    <test name="Computer Test" >
-        <classes>
-            <class name="com.nopcommerce.demo.testsuite.ComputerTestCase"/>
-        </classes>
-    </test>
-</suite>
+   </suite>
