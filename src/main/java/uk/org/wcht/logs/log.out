@@ -1,0 +1,12 @@
+2020-04-20 22:04:233 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-20 22:04:848 INFO  HomePage :33 - Click on your home link [[ChromeDriver: chrome on WINDOWS (8d2c8c539f110a5cfb74a940a83e633f)] -> link text: Your home]
+2020-04-20 22:04:520 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-20 22:04:958 INFO  HomePage :39 - Click on about us link [[ChromeDriver: chrome on WINDOWS (21127117ff55087fef478e93838db4a8)] -> link text: About us]
+2020-04-20 22:04:635 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-20 22:04:194 INFO  HomePage :27 - Click on your account link Proxy element for: DefaultElementLocator 'By.linkText: Your account'
+2020-04-20 22:04:591 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-20 22:04:183 INFO  HomePage :33 - Click on your home link [[ChromeDriver: chrome on WINDOWS (5804a66d9f2e149d22acdd64ff9b76e1)] -> link text: Your home]
+2020-04-20 22:04:699 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-20 22:04:793 INFO  HomePage :39 - Click on about us link [[ChromeDriver: chrome on WINDOWS (edab43bb62f1732572f3905cdef47619)] -> link text: About us]
+2020-04-20 22:04:914 INFO  BrowserSelector :19 - Launching Chrome Browser
+2020-04-20 22:04:243 INFO  HomePage :27 - Click on your account link Proxy element for: DefaultElementLocator 'By.linkText: Your account'

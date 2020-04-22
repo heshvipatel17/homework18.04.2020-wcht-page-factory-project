@@ -1,25 +1,42 @@
 package uk.org.wcht.pages;
 
-import org.openqa.selenium.By;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.testng.Reporter;
 import uk.org.wcht.utility.Utility;
 
 public class HomePage extends Utility {
 
-    By yourAccountLink = By.linkText("Your account");
-    By yourHomeDropDownLink = By.linkText("Your home");
-    By aboutUsDropDownLink = By.linkText("About us");
+    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+
+    @FindBy(linkText = "Your account")
+    WebElement _yourAccountLink;
+
+    @FindBy(linkText = "Your home")
+    WebElement _yourHomeDropDownLink;
+
+    @FindBy(linkText = "About us")
+    WebElement _aboutUsDropDownLink;
 
 
     public void clickOnYourAccountLink() {
-        clickOnElement(yourAccountLink);
+        Reporter.log(" Click on your account link " + _yourAccountLink.toString() + "<br>");
+        clickOnElement(_yourAccountLink);
+        log.info("Click on your account link " + _yourAccountLink.toString());
     }
 
     public void mouseHoverOnYourHomeDropDownLink() {
-        mouseHoverToElement(yourHomeDropDownLink);
+        Reporter.log("Click on your home link " + _yourHomeDropDownLink.toString() + "<br>");
+        mouseHoverToElement(_yourHomeDropDownLink);
+        log.info("Click on your home link " + _yourHomeDropDownLink.toString());
     }
 
     public void mouseHoverAndClickAboutUsDropDownLink() {
-        mouseHoverToElementAndClick(aboutUsDropDownLink);
+        Reporter.log("Click on about us link " + _aboutUsDropDownLink.toString() + "<br>");
+        mouseHoverToElementAndClick(_aboutUsDropDownLink);
+        log.info("Click on about us link " + _aboutUsDropDownLink.toString());
     }
 
 }

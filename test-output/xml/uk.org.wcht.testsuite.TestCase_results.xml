@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login Test"
-           tests="1"
+<testsuite name="Test Case"
+           tests="3"
            failures="0"
            errors="0"
            skipped="0"
-           time="1.489">
+           time="13.573">
   <properties />
   
   
-            <testcase name="verifyUserShouldClickOnYourAccountLink" time="1.489" classname="uk.org.wcht.testsuite.TestCase" />
+            <testcase name="VerifyUserShouldmouseHoverAndClickAboutUsDropDownLink" time="1.371" classname="uk.org.wcht.testsuite.TestCase" />
+                <testcase name="verifyUserShouldClickOnYourAccountLink" time="11.663" classname="uk.org.wcht.testsuite.TestCase" />
+                <testcase name="VerifyUserShouldMouseHoverOnYourHomeDropDownLink" time="0.539" classname="uk.org.wcht.testsuite.TestCase" />
       
 </testsuite>
